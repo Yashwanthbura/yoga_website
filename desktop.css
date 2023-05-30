@@ -1,0 +1,1111 @@
+header{
+    background-color: rgb(241, 245, 245);
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    display: grid;
+    grid-template-columns: 45% 60%;
+    padding-top: 10px;
+    z-index: 9;
+  }
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+.parent1{
+  height: 17vh;
+  display: flex;
+  justify-content: space-between;
+}
+.parent1 i{
+  font-size: 30px;
+  margin-top: 65px;
+}
+.parent1 img{
+    margin-top: 70px;
+    width: 60px;
+    height: 30px;
+}
+.lady{
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+}
+.lady{animation-timing-function: ease-in-out;}
+@keyframes example {
+  from{opacity: 0;left:-400px}
+  to{left:0px}
+}
+.day{
+  position: relative;
+  animation-name: day;
+  animation-duration: 2s;
+}
+h1{animation-timing-function: ease-in-out;}
+@keyframes day {
+  from{opacity: -1;bottom:-150px}
+  to{bottom:0px}
+}
+
+.parent2 .lady{
+  width: 53vw;
+  height: 100%;
+}
+.parent2 .flower{
+    width: 14vw;
+    height: 23vh;
+}
+.parent2{
+  background-color: rgba(242, 242, 242, 0.555);
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+}
+.parent2 span{
+  color:rgb(225, 180, 16);
+}
+.day h1{
+  font-size: 80px;
+  position: relative;
+  bottom: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.parent2 p{
+  line-height: 40px;
+  position: relative;
+  bottom:80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.day button{
+  width: 20vw;
+  height: 8vh;
+  border-radius: 40px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.point{
+  position: relative;
+  animation-name: point;
+  animation-duration: 2s;
+}
+.point{animation-timing-function: ease-in-out;}
+@keyframes point{
+  from{opacity:0;bottom:-100px}
+  to{bottom:0px}
+}
+.parent3{
+  background-color: rgb(244, 182, 66);
+  width: 100%;
+  height: 57vh;
+  text-align: center;
+}
+.point{
+  display: flex;
+  justify-content: space-evenly;
+}
+.point div{
+  background-color:white;
+  width: 18vw;
+  border-radius: 20px;
+  height: 26vh;
+  position: relative;
+  top: 80px;
+  padding-top: 50px;
+}
+.point .yoga-img{
+  background-color: rgb(240, 200, 124);
+  width: 60px;
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+.a{
+  position: relative;
+  animation-name: parent4-a;
+  animation-duration: 2s;
+}
+.a{animation-timing-function: ease-in-out;} 
+@keyframes parent4-a {
+  from{opacity: 0;left:-400px}
+  to{left:0px}
+}
+.b{
+  position: relative;
+  animation-name: parent4-b;
+  animation-duration: 2s;
+}
+.b{animation-timing-function: ease-in-out;} 
+@keyframes parent4-b {
+  from{opacity: 0;right:-400px}
+  to{right:0px}
+}
+.parent4{
+  display: grid;
+  grid-template-columns: 55% 45%;
+  
+}
+.parent4 img{
+  width: 35vw;
+}
+.parent4 p{
+ font-size: 20px;
+ line-height:9px;
+ font-family:'Courier New', Courier, monospace;
+}
+.parent4 h1{
+  font-size: 60px;
+  font-style: italic;
+  text-align: center;
+
+}
+.parent4 button{
+width: 23vw;
+height: 7vh;
+border-radius: 30px;
+margin-top: 60px;
+}
+
+.div4{
+  position: relative;
+  animation-name: parent5-a;
+  animation-duration: 2s;
+}
+div{animation-timing-function: ease-in-out;}
+@keyframes parent5-a{
+  from{opacity:0;bottom:-100px}
+  to{bottom:0px}
+}
+.rotate{
+  position: relative;
+  animation-name: parent5-b;
+  animation-duration: 2s;
+}
+.rotate{animation-timing-function: ease-in-out;}
+@keyframes parent5-b{
+ 100% {transform: rotate(-360deg);}
+}
+.parent5{
+  background-color: rgb(244, 182, 66);
+  height: 85vh;
+
+}
+.div4{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.yoga, .hatha, .meditation, .iyengar, .kundalini{
+  background-color: white;
+  width: 16vw;
+  height: 60vh;
+  margin-top: 50px;
+  font-size: 20px;
+  padding-top: 50px;
+  position: relative;
+  line-height: 35px;
+  border-radius: 20px;
+}
+.B{
+  font-weight: bold;
+}
+.div4 img{
+width: 11vw;  
+border-radius: 100px;
+border: 5px solid rgb(244, 182, 66);
+}
+
+.aa{
+  position: relative;
+  animation-name: parent6-a;
+  animation-duration: 2s;
+}
+.aa{animation-timing-function: ease-in-out;}
+@keyframes parent6-a{
+  from{opacity:0;bottom:-100px}
+  to{bottom:0px}
+}
+
+.bb{
+  position: relative;
+  animation-name: parent6-b;
+  animation-duration: 2s;
+}
+.bb{animation-timing-function: ease-in-out;}
+@keyframes parent6-b{
+  from{opacity: 0;right:-400px}
+  to{right:0px}
+}
+.parent6{
+  background-color: rgba(242, 242, 242, 0.555);
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.bb img{
+  width: 60vw;
+}
+.aa img{
+  width: 6vw;
+}
+.aa{
+  width: 38vw;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  }
+.aa button{
+  width: 22vw;
+  height: 8vh;
+  border-radius: 100px;
+  font-size: 20px;
+}
+
+.a7{
+  position: relative;
+  animation-name: parent7-a;
+  animation-duration: 2s;
+}
+img{animation-timing-function: ease-in-out;}
+@keyframes parent7-a{
+  from{opacity: 0;left:-400px}
+  to{left:0px}
+}
+.b7{
+  position: relative;
+  animation-name: parent7-b;
+  animation-duration: 2s;
+}
+img{animation-timing-function: ease-in-out;}
+@keyframes parent7-b{
+  from{opacity: 0;right:-3px}
+  to{right:0px}
+}
+.parent7{
+  background-color:rgb(244, 182, 66);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 89vh;
+  font-size: 22px;
+}
+.a7 img{
+  width: 23vw;
+}
+.a7{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.b7{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 40px;
+}
+.b7 img{
+  width: 13vw;
+}
+.b7 button{
+  width: 15vw;
+  height: 5vh;
+  border-radius: 30px;
+  border: none;
+}
+
+.b8{
+  position: relative;
+  animation-name: parent8-b;
+  animation-duration: 2s;
+}
+img{animation-timing-function: ease-in-out;}
+@keyframes parent8-b{
+  from{opacity: 0;right:-400px}
+  to{right:0px}
+}
+.a8{
+  position: relative;
+  animation-name: parent8-a;
+  animation-duration: 2s;
+}
+.a8{animation-timing-function: ease-in-out;}
+@keyframes parent8-a{
+  from{opacity: 0;bottom:-100px}
+  to{bottom:0px}
+}
+.parent8{
+  background-color: rgba(242, 242, 242, 0.555) ;
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+.b8 img{
+  width:40vw;
+}
+.a8{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+  line-height: 40px;
+}
+.a8 button{
+ width: 20vw;
+ height: 7vh;
+ border-radius: 30px;
+ margin-top: 60px;
+}
+.a8 h1{
+  font-size: 35px;
+}
+.parent8 span{
+  color: rgb(225, 180, 16);
+  font-size: 35px;
+  margin-bottom: 100px;
+}
+.a8 p{
+  text-align: center;
+}
+
+.parent9{
+  background-color: rgb(244, 182, 66);
+ height: 80vh;
+  display: flex;
+}
+.about{
+  width: 30vw;
+  font-size: 23px;
+  padding: 70px;
+  line-height: 40px;
+}
+.corporate{
+  background-color: white;
+  width: 17vw;
+  height: 26vh;
+  margin-top: 40px;
+  border-radius: 30px;
+  text-align: center;
+  padding: 30px;
+  line-height: 30px;
+}
+.benifits{
+  background-color: black;
+  color: white;
+  width: 17vw;
+  height: 26vh;
+  margin-top: 260px;
+  margin-left: 80px;
+  border-radius: 30px;
+  text-align: center;
+  padding: 30px;
+  line-height: 30px;
+}
+
+.parent10{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  display: flex;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 30px;
+}
+.a10 img{
+  width: 46vw;
+}
+.a10{
+  text-align: start;
+}
+.b10{
+  display: flex;
+  flex-direction: column;
+}
+.b10 h1{
+   font-size: 70px;   
+}
+.b10 button{
+  width: 23vw;
+  height: 7vh;
+  border-radius: 40px;
+}
+
+.parent11{
+  background-color: rgb(244, 182, 66);
+  height: 110vh;
+  display: flex;
+}
+.a11{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+font-size: 22px; 
+padding: 100px;
+}
+.a11 div{
+  border-bottom: 1px solid black;
+}
+.form{
+  background-color: white;
+  width:30vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 50px;
+  margin-top: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+  height: 9vh;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+form input, textarea{
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+}
+footer{
+  background-color: rgba(58, 58, 58, 0.879);
+  width: 100%;
+  height: 36vh;
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+  header{
+    height: 6vh;
+  } 
+  .parent1{
+    height: 17vh;
+  }
+  .parent2{
+    font-size: 25px;
+   }
+   .parent2 .lady{
+    width: 60vw;
+   }
+    .parent2 .flower{
+      width: 13vw;
+      height: 15vh;
+    }
+    .day button{
+    margin-bottom: 100px;
+    }
+  .point{
+    display: grid;
+    grid-template-columns: 40% 30%;
+     grid-template-rows: 60% 50%;
+  }
+
+  .parent3{
+    height: 95vh;
+  }     
+  .point div{
+    width: 30vw;
+  }
+
+.parent4{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgba(255, 252, 252, 0.92) ;
+}
+.a img{
+  width: 55vw;
+  height: 75vw;
+}
+.b{
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+}
+.b button{
+  width: 30vw;
+  height: 8vh;
+  border-radius: 60px;
+  font-size: 20px;
+}
+
+.parent5{
+  height: 154vh;
+}
+
+.div4{
+  display: grid;
+  grid-template-columns: 30% 30% 30% ;
+}
+.div4 div{
+  width: 27vw;
+}
+
+.parent6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bb img{
+  width: 96vw;
+}
+.aa{
+  width: 80vw;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.parent7{
+  display: flex;
+  flex-direction: column;
+  height: 180vh;
+  align-items: start;
+}
+.a7 img{
+width: 35vw;
+margin-left: 40px;
+}
+.b7{
+  width: 80vw;
+  font-size: 28px;
+  padding-left: 76px;
+}
+.b7 button{
+  width: 25vw;
+  height: 6vh;
+}
+
+.parent8{
+  height: 100vh;
+}
+.a8 h1{
+  font-size: 40px;
+}
+.a8{
+  width: 40vw;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.b8 img{
+  width:43vw;
+  margin-top: 30px;
+}
+
+.parent9{
+  display: grid;
+  grid-template-columns: 60% 60%;
+  grid-template-rows: 30%;
+  height: 120vh;
+}
+.corporate{
+  width: 32vw;
+  font-size: 22px;
+}
+.about{
+  width: 35vw;
+}
+.benifits{
+  width: 78vw;
+  font-size: 24px;
+}
+
+.parent10{
+  display: flex;
+  flex-direction: column;
+}
+.a10{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.a10 img{
+width: 68vw;
+}
+.b10{
+  font-size: 24px;
+  width: 90vw;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-inline-start: 70px;
+}
+
+.parent11{
+  height: 123vh;
+}
+.a11{
+  font-size: 30px;
+}
+.form{
+  margin-right: 30px;
+  width: 50vw;
+  font-size: 25px;
+}
+  }
+
+@media  (min-width:461px) and (max-width:768px){
+  header{
+    height: 6vh;
+  }
+  .parent2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }   
+.parent2 .lady{
+width: 80vw;
+}
+.parent2 .flower{
+  width: 20vw;
+}
+.parent2 button{
+  margin-bottom: 40px;
+}
+
+.parent3{
+  height: 107vh;
+}   
+.point{
+  display: grid;
+  grid-template-columns: 40% 30%;
+   grid-template-rows: 60% 50%;
+}
+.point div{
+  width: 30vw;
+  padding-bottom: 20px;
+}
+
+.parent4{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgba(255, 252, 252, 0.92) ;
+}
+.a img{
+  width: 55vw;
+  height: 75vw;
+}
+.b{
+  height: 80vh;
+  margin-right: 200px;
+}
+.b button{
+  width: 30vw;
+  height: 8vh;
+  border-radius: 60px;
+  font-size: 20px;
+}
+.b h1{
+  font-size: 35px;
+}
+.parent5{
+  height: 220vh;
+}
+.div4{
+  display: grid;
+  grid-template-columns: 30% 30%  ;
+}
+.div4 div{
+  width: 35vw;
+  height: 52vh;
+}
+
+.parent6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bb img{
+  width: 97vw;
+}
+.aa{
+  width: 80vw;
+  font-size: 20px;
+  line-height: 50px;
+}
+.aa img{
+  width: 14vw;
+}
+
+.parent7{
+  display: flex;
+  flex-direction: column;
+  height: 165vh;
+  align-items:center;
+}
+.a7 img{
+width: 35vw;
+margin-left: 40px;
+}
+.b7{
+  width: 80vw;
+  font-size: 20px;
+  padding-left: 76px;
+}
+.b7 button{
+  width: 25vw;
+  height: 6vh;
+}
+
+.parent8{
+  display: flex;
+  flex-direction: column;
+}
+.b8 img{
+  width: 60vw;
+}
+.b8{
+  display: flex;
+  justify-content: center;
+}
+
+.parent9{
+  display: grid;
+  grid-template-rows: auto ;
+  height: 170vh;
+}
+.about{
+  width: 82%;
+  font-size: 22px;
+}
+.corporate{
+  width: 77vw;
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+  border-radius: 40px;
+}
+.benifits{
+  width: 77vw;
+  position: relative;
+  bottom: 300px;
+  right: 30px;
+  border-radius: 40px; 
+}
+
+.parent10{
+  display: flex;
+  flex-direction: column;
+  height: 180vh;
+}
+.a10{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.a10 img{
+width: 68vw;
+}
+.b10{
+  font-size: 20px;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-inline-start: 70px;
+}
+.b10 h1{
+  font-size: 45px;
+}
+
+.parent11{
+  display: flex;
+  flex-direction: column;
+  height: 280vh;
+ align-items: center;
+}
+.a11{
+  width: 70vw;
+}
+.form{
+  width: 60vw;
+  height: 100vh;
+  font-size: 18px;
+  border-radius: 30px;
+}
+}
+
+@media only screen and (max-width:460px){
+  header{
+    height:6vh;
+  }
+.parent2{
+display: flex;
+flex-direction: column;
+}   
+.parent2 .lady{
+width: 93vw;
+}
+.parent2 .flower{
+width: 30vw;
+height: 20vh;
+}
+.parent2 button{
+width: 40vw;
+margin-bottom: 40px;
+}
+
+.parent3{
+height: 200vh;
+}   
+.point{
+display: grid;
+grid-template-columns: 64%;
+row-gap: 47px;
+}
+.point div{
+width: 60vw;
+padding-bottom: 20px;
+}
+
+.parent4{
+display:flex;
+flex-direction: column;
+align-items: center;
+background-color:rgba(255, 252, 252, 0.92) ;
+}
+.a img{
+width: 70vw;
+}
+.b{
+height: 80vh;
+}
+.b button{
+width: 50vw;
+height: 9vh;
+border-radius: 60px;
+font-size: 17px;
+}
+.b h1{
+font-size: 35px;
+}
+
+.parent5{
+height: 396vh;
+}
+.div4{
+display: grid;
+grid-template-columns: 65% ;
+}
+.div4 div{
+width: 60vw;
+height: 50vh;
+border-radius: 30px;
+padding-bottom: 50px;
+}
+.div4 img{
+  width: 25vw;
+}
+
+.parent6{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.bb img{
+width: 93vw;
+}
+.aa{
+width: 80vw;
+font-size: 20px;
+line-height: 40px;
+}
+.aa img{
+width: 14vw;
+}
+.aa button{
+  width: 40vw;
+}
+
+.parent7{
+display: flex;
+flex-direction: column;
+height: 200vh;
+}
+.a7 img{
+width: 70vw;
+margin-left: 40px;
+}
+.b7{
+width: 80vw;
+font-size: 22px;
+padding-left:46px;
+}
+.b7 button{
+width: 35vw;
+height: 8vh;
+}
+.b7 img{
+  width: 35vw;
+}
+
+.parent8{
+display: flex;
+flex-direction: column;
+}
+.b8 img{
+width: 93vw;
+}
+.b8{
+display: flex;
+justify-content: center;
+}
+.a8 button{
+  width: 50vw;
+  height: 9vh;
+}
+
+.parent9{
+display: grid;
+grid-template-rows: auto ;
+height: 190vh;
+}
+.about{
+width: 64vw;
+font-size: 22px;
+}
+.corporate{
+width: 70vw;
+height: 30vh;
+position: relative;
+bottom: 100px;
+left: 33px;
+border-radius: 40px;
+}
+.benifits{
+width: 70vw;
+height: 30vh;
+position: relative;
+bottom: 300px;
+right: 45px;
+border-radius: 40px; 
+}
+
+.parent10{
+display: flex;
+flex-direction: column;
+height: 180vh;
+}
+.a10{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.a10 img{
+width: 93vw;
+}
+.b10{
+font-size: 18px;
+width:79vw;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+padding-inline-start: 40px;
+}
+.b10 h1{
+font-size: 45px;
+}
+.b10 button{
+  width: 50vw;
+  height: 10vh;
+}
+
+.parent11{
+display: flex;
+flex-direction: column;
+height: 300vh;
+align-items: center;
+}
+.a11{
+width: 66vw;
+margin-right: 62px;
+}
+.form{
+width: 63vw;
+height: 130vh;
+font-size: 20px;
+border-radius: 30px;
+line-height: 40px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
