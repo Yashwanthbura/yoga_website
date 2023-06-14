@@ -32,7 +32,7 @@ button:hover{
     width: 60px;
     height: 30px;
 }
-.lady{
+.lady:hover{
   position: relative;
   animation-name: example;
   animation-duration: 2s;
@@ -42,7 +42,7 @@ button:hover{
   from{opacity: 0;left:-400px}
   to{left:0px}
 }
-.day{
+.day:hover{
   position: relative;
   animation-name: day;
   animation-duration: 2s;
@@ -90,7 +90,7 @@ h1{animation-timing-function: ease-in-out;}
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.point{
+.point:hover{
   position: relative;
   animation-name: point;
   animation-duration: 2s;
@@ -127,7 +127,7 @@ h1{animation-timing-function: ease-in-out;}
   border: 2px solid black;
 }
 
-.a{
+.a:hover{
   position: relative;
   animation-name: parent4-a;
   animation-duration: 2s;
@@ -137,7 +137,7 @@ h1{animation-timing-function: ease-in-out;}
   from{opacity: 0;left:-400px}
   to{left:0px}
 }
-.b{
+.b:hover{
   position: relative;
   animation-name: parent4-b;
   animation-duration: 2s;
@@ -173,7 +173,7 @@ border-radius: 30px;
 margin-top: 60px;
 }
 
-.div4{
+.div4:hover{
   position: relative;
   animation-name: parent5-a;
   animation-duration: 2s;
@@ -183,7 +183,7 @@ div{animation-timing-function: ease-in-out;}
   from{opacity:0;bottom:-100px}
   to{bottom:0px}
 }
-.rotate{
+.rotate:hover{
   position: relative;
   animation-name: parent5-b;
   animation-duration: 2s;
@@ -224,7 +224,7 @@ border-radius: 100px;
 border: 5px solid rgb(244, 182, 66);
 }
 
-.aa{
+.aa:hover{
   position: relative;
   animation-name: parent6-a;
   animation-duration: 2s;
@@ -235,7 +235,7 @@ border: 5px solid rgb(244, 182, 66);
   to{bottom:0px}
 }
 
-.bb{
+.bb:hover{
   position: relative;
   animation-name: parent6-b;
   animation-duration: 2s;
@@ -273,7 +273,7 @@ border: 5px solid rgb(244, 182, 66);
   font-size: 20px;
 }
 
-.a7{
+.a7:hover{
   position: relative;
   animation-name: parent7-a;
   animation-duration: 2s;
@@ -283,7 +283,7 @@ img{animation-timing-function: ease-in-out;}
   from{opacity: 0;left:-400px}
   to{left:0px}
 }
-.b7{
+.b7:hover{
   position: relative;
   animation-name: parent7-b;
   animation-duration: 2s;
@@ -325,7 +325,7 @@ img{animation-timing-function: ease-in-out;}
   border: none;
 }
 
-.b8{
+.b8:hover{
   position: relative;
   animation-name: parent8-b;
   animation-duration: 2s;
@@ -335,7 +335,7 @@ img{animation-timing-function: ease-in-out;}
   from{opacity: 0;right:-400px}
   to{right:0px}
 }
-.a8{
+.a8:hover{
   position: relative;
   animation-name: parent8-a;
   animation-duration: 2s;
